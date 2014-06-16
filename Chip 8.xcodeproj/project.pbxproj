@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D5218F194EADCD00C1CC19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5218E194EADCD00C1CC19 /* main.swift */; };
+		54D52191194EADCD00C1CC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D52190194EADCD00C1CC19 /* AppDelegate.swift */; };
+		54D52193194EADCD00C1CC19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D52192194EADCD00C1CC19 /* Images.xcassets */; };
+		54D52196194EADCD00C1CC19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D52194194EADCD00C1CC19 /* MainMenu.xib */; };
+		54D521A2194EADCD00C1CC19 /* Chip_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D521A1194EADCD00C1CC19 /* Chip_8Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54D5219C194EADCD00C1CC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D52181194EADCD00C1CC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D52188194EADCD00C1CC19;
+			remoteInfo = "Chip 8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54D52189194EADCD00C1CC19 /* Chip 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chip 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D5218D194EADCD00C1CC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D5218E194EADCD00C1CC19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		54D52190194EADCD00C1CC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54D52192194EADCD00C1CC19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54D52195194EADCD00C1CC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		54D5219B194EADCD00C1CC19 /* Chip 8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chip 8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D521A0194EADCD00C1CC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D521A1194EADCD00C1CC19 /* Chip_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip_8Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D52186194EADCD00C1CC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D52198194EADCD00C1CC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D52180194EADCD00C1CC19 = {
+			isa = PBXGroup;
+			children = (
+				54D5218B194EADCD00C1CC19 /* Chip 8 */,
+				54D5219E194EADCD00C1CC19 /* Chip 8Tests */,
+				54D5218A194EADCD00C1CC19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54D5218A194EADCD00C1CC19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D52189194EADCD00C1CC19 /* Chip 8.app */,
+				54D5219B194EADCD00C1CC19 /* Chip 8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54D5218B194EADCD00C1CC19 /* Chip 8 */ = {
+			isa = PBXGroup;
+			children = (
+				54D52190194EADCD00C1CC19 /* AppDelegate.swift */,
+				54D52192194EADCD00C1CC19 /* Images.xcassets */,
+				54D52194194EADCD00C1CC19 /* MainMenu.xib */,
+				54D5218C194EADCD00C1CC19 /* Supporting Files */,
+			);
+			path = "Chip 8";
+			sourceTree = "<group>";
+		};
+		54D5218C194EADCD00C1CC19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54D5218D194EADCD00C1CC19 /* Info.plist */,
+				54D5218E194EADCD00C1CC19 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54D5219E194EADCD00C1CC19 /* Chip 8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54D521A1194EADCD00C1CC19 /* Chip_8Tests.swift */,
+				54D5219F194EADCD00C1CC19 /* Supporting Files */,
+			);
+			path = "Chip 8Tests";
+			sourceTree = "<group>";
+		};
+		54D5219F194EADCD00C1CC19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54D521A0194EADCD00C1CC19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54D52188194EADCD00C1CC19 /* Chip 8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D521A5194EADCD00C1CC19 /* Build configuration list for PBXNativeTarget "Chip 8" */;
+			buildPhases = (
+				54D52185194EADCD00C1CC19 /* Sources */,
+				54D52186194EADCD00C1CC19 /* Frameworks */,
+				54D52187194EADCD00C1CC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chip 8";
+			productName = "Chip 8";
+			productReference = 54D52189194EADCD00C1CC19 /* Chip 8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54D5219A194EADCD00C1CC19 /* Chip 8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D521A8194EADCD00C1CC19 /* Build configuration list for PBXNativeTarget "Chip 8Tests" */;
+			buildPhases = (
+				54D52197194EADCD00C1CC19 /* Sources */,
+				54D52198194EADCD00C1CC19 /* Frameworks */,
+				54D52199194EADCD00C1CC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D5219D194EADCD00C1CC19 /* PBXTargetDependency */,
+			);
+			name = "Chip 8Tests";
+			productName = "Chip 8Tests";
+			productReference = 54D5219B194EADCD00C1CC19 /* Chip 8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D52181194EADCD00C1CC19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Neil Singh";
+				TargetAttributes = {
+					54D52188194EADCD00C1CC19 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					54D5219A194EADCD00C1CC19 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 54D52188194EADCD00C1CC19;
+					};
+				};
+			};
+			buildConfigurationList = 54D52184194EADCD00C1CC19 /* Build configuration list for PBXProject "Chip 8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54D52180194EADCD00C1CC19;
+			productRefGroup = 54D5218A194EADCD00C1CC19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54D52188194EADCD00C1CC19 /* Chip 8 */,
+				54D5219A194EADCD00C1CC19 /* Chip 8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D52187194EADCD00C1CC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D52193194EADCD00C1CC19 /* Images.xcassets in Resources */,
+				54D52196194EADCD00C1CC19 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D52199194EADCD00C1CC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D52185194EADCD00C1CC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D52191194EADCD00C1CC19 /* AppDelegate.swift in Sources */,
+				54D5218F194EADCD00C1CC19 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D52197194EADCD00C1CC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D521A2194EADCD00C1CC19 /* Chip_8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54D5219D194EADCD00C1CC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D52188194EADCD00C1CC19 /* Chip 8 */;
+			targetProxy = 54D5219C194EADCD00C1CC19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54D52194194EADCD00C1CC19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D52195194EADCD00C1CC19 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54D521A3194EADCD00C1CC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54D521A4194EADCD00C1CC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54D521A6194EADCD00C1CC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Chip 8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54D521A7194EADCD00C1CC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Chip 8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54D521A9194EADCD00C1CC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chip 8.app/Contents/MacOS/Chip 8";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chip 8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		54D521AA194EADCD00C1CC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chip 8.app/Contents/MacOS/Chip 8";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chip 8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54D52184194EADCD00C1CC19 /* Build configuration list for PBXProject "Chip 8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D521A3194EADCD00C1CC19 /* Debug */,
+				54D521A4194EADCD00C1CC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D521A5194EADCD00C1CC19 /* Build configuration list for PBXNativeTarget "Chip 8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D521A6194EADCD00C1CC19 /* Debug */,
+				54D521A7194EADCD00C1CC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54D521A8194EADCD00C1CC19 /* Build configuration list for PBXNativeTarget "Chip 8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D521A9194EADCD00C1CC19 /* Debug */,
+				54D521AA194EADCD00C1CC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D52181194EADCD00C1CC19 /* Project object */;
+}
