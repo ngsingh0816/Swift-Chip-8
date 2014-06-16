@@ -12,6 +12,8 @@
 		54D52193194EADCD00C1CC19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D52192194EADCD00C1CC19 /* Images.xcassets */; };
 		54D52196194EADCD00C1CC19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D52194194EADCD00C1CC19 /* MainMenu.xib */; };
 		54D521A2194EADCD00C1CC19 /* Chip_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D521A1194EADCD00C1CC19 /* Chip_8Tests.swift */; };
+		54D521AD194EAE0300C1CC19 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D521AB194EAE0300C1CC19 /* CPU.swift */; };
+		54D521AE194EAE0300C1CC19 /* SwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D521AC194EAE0300C1CC19 /* SwiftView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		54D5219B194EADCD00C1CC19 /* Chip 8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chip 8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D521A0194EADCD00C1CC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D521A1194EADCD00C1CC19 /* Chip_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip_8Tests.swift; sourceTree = "<group>"; };
+		54D521AB194EAE0300C1CC19 /* CPU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
+		54D521AC194EAE0300C1CC19 /* SwiftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				54D52190194EADCD00C1CC19 /* AppDelegate.swift */,
 				54D52192194EADCD00C1CC19 /* Images.xcassets */,
+				54D521AB194EAE0300C1CC19 /* CPU.swift */,
+				54D521AC194EAE0300C1CC19 /* SwiftView.swift */,
 				54D52194194EADCD00C1CC19 /* MainMenu.xib */,
 				54D5218C194EADCD00C1CC19 /* Supporting Files */,
 			);
@@ -210,6 +216,8 @@
 			files = (
 				54D52191194EADCD00C1CC19 /* AppDelegate.swift in Sources */,
 				54D5218F194EADCD00C1CC19 /* main.swift in Sources */,
+				54D521AE194EAE0300C1CC19 /* SwiftView.swift in Sources */,
+				54D521AD194EAE0300C1CC19 /* CPU.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +336,7 @@
 				INFOPLIST_FILE = "Chip 8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -339,6 +348,7 @@
 				INFOPLIST_FILE = "Chip 8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
